@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:    mytetra
-Version: 1.44.22
+Version: 1.44.28
 Release: 0%{?dist}
 License: GPLv3
 Group:   System/X11/Utilities
