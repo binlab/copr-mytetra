@@ -2,7 +2,7 @@
 
 Name:    mytetra
 Version: 1.43.27
-Release: 1
+Release: 0%{?dist}
 License: GPLv3
 Group:   System/X11/Utilities
 Summary: Personal manager for information accumulation
