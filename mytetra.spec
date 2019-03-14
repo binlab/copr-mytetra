@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:    mytetra
-Version: 1.44.28
+Version: 1.44.22
 Release: 0%{?dist}
 License: GPLv3
 Group:   System/X11/Utilities
@@ -43,7 +43,7 @@ Features:
 
 %build
 cd %{name}_dev-v.%{version}
-sed -ri 's|/usr/local/bin|%{_bindir}|' mytetra.pro
+sed -ri 's|/usr/local/bin|%{_bindir}|' app/app.pro
 qmake-qt5 mytetra.pro \
   QMAKE_CFLAGS="%{optflags}" \
   QMAKE_CXXFLAGS="%{optflags}" \
