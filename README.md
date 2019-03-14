@@ -1,5 +1,7 @@
 # Fedora COPR - MyTetra
 
+[![Copr build status](https://copr.fedorainfracloud.org/coprs/binlab/mytetra/package/mytetra/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/binlab/mytetra/package/mytetra/)
+
 __MyTetra__ is a full-featured, open source, cross-platform note 
 manager (PIM-manager) used to collect and accumulate various 
 kinds of information. All entries (notes, articles) are organized 
