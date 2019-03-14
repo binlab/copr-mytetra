@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:    mytetra
-Version: 1.44.44
+Version: 1.44.55
 Release: 0%{?dist}
 License: GPLv3
 Group:   System/X11/Utilities
@@ -10,8 +10,8 @@ URL:     https://github.com/xintrea/mytetra_dev
 Source0: %{url}/archive/v.%{version}.tar.gz
 
 BuildRequires: gcc-c++
-BuildRequires: qt5-qtbase-devel >= 5.2
-BuildRequires: qt5-qtsvg-devel >= 5.2
+BuildRequires: qt5-qtbase-devel >= 5.9
+BuildRequires: qt5-qtsvg-devel >= 5.9
 
 %description
 MyTetra is a full-featured, open source, cross-platform note 
